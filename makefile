@@ -1,4 +1,4 @@
-euler: main.o euler.o
+all: main.o euler.o
 	gcc -o euler main.o euler.o
 
 main.o: main.c euler.h
